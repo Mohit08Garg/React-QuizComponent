@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import QuizQuestionButton from './QuizQuestionButton.js';
 
 class QuizQuestion extends Component {
-    constructor(props, context) {
-        super(props, context);
+    constructor(props) {
+        super(props);
         this.state = { incorrectAnswer: false };
         this.handleClick = this.handleClick.bind(this);
     }
